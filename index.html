@@ -27,7 +27,7 @@
     {
       text-align: center;
     align-items: center;
-    margin-top: 185px;
+    margin-top: 225px;
     background-color: rgba(4, 29, 75, 0.842);
     width: 252px;
     height: 240px;
@@ -50,12 +50,13 @@
     .xx{
 
       font-family:'Alata';
-      font-size: 27px;
+      font-size: 34px;
       color:whitesmoke ;
       float: left;
     position: absolute;
     margin-top: 32px;
-    margin-left: -10px;
+    margin-left: 8px;
+    letter-spacing: 2px;
     
 
     }
@@ -69,6 +70,13 @@
     border-radius: 10px;
     font-family: 'Alata';
 }
+
+#gh{
+  margin-top: -138px;
+  margin-left: 65px;
+  opacity: 0.8;
+  position: absolute;
+}
     
 
 
@@ -79,10 +87,10 @@
 
 </style>
 <body>
-  
+  <div id="gh"><img src="https://s3.amazonaws.com/owler-image/logo/collegedekho_owler_20160302_231523_original.jpg" width="248px" height="90px"></div>
   <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off">
-    <span class="xx">Application No</span>
-    <input type="text" name="entry.65066800" id="nameField" placeholder="Enter Application no" required><br><br>
+    <span class="xx">Roll No</span>
+    <input type="number" name="entry.65066800" id="nameField" placeholder="Enter Roll no" required><br><br>
     <button id="send" type="submit" class="common_btn">check</button>
 
   </form>
